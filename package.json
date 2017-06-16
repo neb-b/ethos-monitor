@@ -4,7 +4,7 @@
 	"author": "seanyesmunt",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/seanyesmunt/react-universe.git"
+		"url": "git+https://github.com/seanyesmunt/ethos-monitor.git"
 	},
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
