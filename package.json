@@ -1,0 +1,29 @@
+{
+	"name": "ethOSMonitor",
+	"version": "0.0.1",
+	"author": "seanyesmunt",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/seanyesmunt/react-universe.git"
+	},
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"precommit": "lint-staged"
+	},
+	"lint-staged": {
+		"src/**/*.{jsx,js}": [
+			"prettier --no-semi --use-tabs --single-quote --write",
+			"git add"
+		]
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.45.1"
+	},
+	"devDependencies": {
+		"babel-preset-react-native": "2.0.0",
+		"husky": "^0.13.4",
+		"lint-staged": "^3.6.1",
+		"prettier": "^1.4.4"
+	}
+}
